@@ -68,6 +68,9 @@
       <DependentUpon>PhoneDataModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="repositories\IRepository.cs" />
+    <Compile Include="repositories\PhoneCodeRepo.cs" />
+    <Compile Include="repositories\PhoneRepo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="scripts\db.sql" />
